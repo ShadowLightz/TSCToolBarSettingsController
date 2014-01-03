@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDDB8B21876CAB500018DA4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDDB8B11876CAB500018DA4 /* Cocoa.framework */; };
+		ABDDB8BC1876CAB500018DA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABDDB8BA1876CAB500018DA4 /* InfoPlist.strings */; };
+		ABDDB8BE1876CAB500018DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDDB8BD1876CAB500018DA4 /* main.m */; };
+		ABDDB8C21876CAB500018DA4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ABDDB8C01876CAB500018DA4 /* Credits.rtf */; };
+		ABDDB8C51876CAB500018DA4 /* TSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDDB8C41876CAB500018DA4 /* TSCAppDelegate.m */; };
+		ABDDB8C81876CAB500018DA4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABDDB8C61876CAB500018DA4 /* MainMenu.xib */; };
+		ABDDB8CA1876CAB500018DA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDDB8C91876CAB500018DA4 /* Images.xcassets */; };
+		ABDDB8D11876CAB500018DA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDDB8D01876CAB500018DA4 /* XCTest.framework */; };
+		ABDDB8D21876CAB500018DA4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDDB8B11876CAB500018DA4 /* Cocoa.framework */; };
+		ABDDB8DA1876CAB500018DA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABDDB8D81876CAB500018DA4 /* InfoPlist.strings */; };
+		ABDDB8DC1876CAB500018DA4 /* TSCToolBarSettingsController_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDDB8DB1876CAB500018DA4 /* TSCToolBarSettingsController_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABDDB8D31876CAB500018DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDDB8A61876CAB500018DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDDB8AD1876CAB500018DA4;
+			remoteInfo = "TSCToolBarSettingsController Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABDDB8AE1876CAB500018DA4 /* TSCToolBarSettingsController Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSCToolBarSettingsController Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDDB8B11876CAB500018DA4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ABDDB8B41876CAB500018DA4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ABDDB8B51876CAB500018DA4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABDDB8B61876CAB500018DA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABDDB8B91876CAB500018DA4 /* TSCToolBarSettingsController Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSCToolBarSettingsController Demo-Info.plist"; sourceTree = "<group>"; };
+		ABDDB8BB1876CAB500018DA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABDDB8BD1876CAB500018DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABDDB8BF1876CAB500018DA4 /* TSCToolBarSettingsController Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSCToolBarSettingsController Demo-Prefix.pch"; sourceTree = "<group>"; };
+		ABDDB8C11876CAB500018DA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ABDDB8C31876CAB500018DA4 /* TSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCAppDelegate.h; sourceTree = "<group>"; };
+		ABDDB8C41876CAB500018DA4 /* TSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCAppDelegate.m; sourceTree = "<group>"; };
+		ABDDB8C71876CAB500018DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABDDB8C91876CAB500018DA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABDDB8CF1876CAB500018DA4 /* TSCToolBarSettingsController DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSCToolBarSettingsController DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDDB8D01876CAB500018DA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABDDB8D71876CAB500018DA4 /* TSCToolBarSettingsController DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSCToolBarSettingsController DemoTests-Info.plist"; sourceTree = "<group>"; };
+		ABDDB8D91876CAB500018DA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABDDB8DB1876CAB500018DA4 /* TSCToolBarSettingsController_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCToolBarSettingsController_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDDB8AB1876CAB500018DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDB8B21876CAB500018DA4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDDB8CC1876CAB500018DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDB8D21876CAB500018DA4 /* Cocoa.framework in Frameworks */,
+				ABDDB8D11876CAB500018DA4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDDB8A51876CAB500018DA4 = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8B71876CAB500018DA4 /* TSCToolBarSettingsController Demo */,
+				ABDDB8D51876CAB500018DA4 /* TSCToolBarSettingsController DemoTests */,
+				ABDDB8B01876CAB500018DA4 /* Frameworks */,
+				ABDDB8AF1876CAB500018DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDDB8AF1876CAB500018DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8AE1876CAB500018DA4 /* TSCToolBarSettingsController Demo.app */,
+				ABDDB8CF1876CAB500018DA4 /* TSCToolBarSettingsController DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDDB8B01876CAB500018DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8B11876CAB500018DA4 /* Cocoa.framework */,
+				ABDDB8D01876CAB500018DA4 /* XCTest.framework */,
+				ABDDB8B31876CAB500018DA4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABDDB8B31876CAB500018DA4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8B41876CAB500018DA4 /* AppKit.framework */,
+				ABDDB8B51876CAB500018DA4 /* CoreData.framework */,
+				ABDDB8B61876CAB500018DA4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ABDDB8B71876CAB500018DA4 /* TSCToolBarSettingsController Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8C31876CAB500018DA4 /* TSCAppDelegate.h */,
+				ABDDB8C41876CAB500018DA4 /* TSCAppDelegate.m */,
+				ABDDB8C61876CAB500018DA4 /* MainMenu.xib */,
+				ABDDB8C91876CAB500018DA4 /* Images.xcassets */,
+				ABDDB8B81876CAB500018DA4 /* Supporting Files */,
+			);
+			path = "TSCToolBarSettingsController Demo";
+			sourceTree = "<group>";
+		};
+		ABDDB8B81876CAB500018DA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8B91876CAB500018DA4 /* TSCToolBarSettingsController Demo-Info.plist */,
+				ABDDB8BA1876CAB500018DA4 /* InfoPlist.strings */,
+				ABDDB8BD1876CAB500018DA4 /* main.m */,
+				ABDDB8BF1876CAB500018DA4 /* TSCToolBarSettingsController Demo-Prefix.pch */,
+				ABDDB8C01876CAB500018DA4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABDDB8D51876CAB500018DA4 /* TSCToolBarSettingsController DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8DB1876CAB500018DA4 /* TSCToolBarSettingsController_DemoTests.m */,
+				ABDDB8D61876CAB500018DA4 /* Supporting Files */,
+			);
+			path = "TSCToolBarSettingsController DemoTests";
+			sourceTree = "<group>";
+		};
+		ABDDB8D61876CAB500018DA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDB8D71876CAB500018DA4 /* TSCToolBarSettingsController DemoTests-Info.plist */,
+				ABDDB8D81876CAB500018DA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDDB8AD1876CAB500018DA4 /* TSCToolBarSettingsController Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDDB8DF1876CAB500018DA4 /* Build configuration list for PBXNativeTarget "TSCToolBarSettingsController Demo" */;
+			buildPhases = (
+				ABDDB8AA1876CAB500018DA4 /* Sources */,
+				ABDDB8AB1876CAB500018DA4 /* Frameworks */,
+				ABDDB8AC1876CAB500018DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSCToolBarSettingsController Demo";
+			productName = "TSCToolBarSettingsController Demo";
+			productReference = ABDDB8AE1876CAB500018DA4 /* TSCToolBarSettingsController Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDDB8CE1876CAB500018DA4 /* TSCToolBarSettingsController DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDDB8E21876CAB500018DA4 /* Build configuration list for PBXNativeTarget "TSCToolBarSettingsController DemoTests" */;
+			buildPhases = (
+				ABDDB8CB1876CAB500018DA4 /* Sources */,
+				ABDDB8CC1876CAB500018DA4 /* Frameworks */,
+				ABDDB8CD1876CAB500018DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDDB8D41876CAB500018DA4 /* PBXTargetDependency */,
+			);
+			name = "TSCToolBarSettingsController DemoTests";
+			productName = "TSCToolBarSettingsController DemoTests";
+			productReference = ABDDB8CF1876CAB500018DA4 /* TSCToolBarSettingsController DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDDB8A61876CAB500018DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TSC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jonathan Rahn";
+				TargetAttributes = {
+					ABDDB8CE1876CAB500018DA4 = {
+						TestTargetID = ABDDB8AD1876CAB500018DA4;
+					};
+				};
+			};
+			buildConfigurationList = ABDDB8A91876CAB500018DA4 /* Build configuration list for PBXProject "TSCToolBarSettingsController Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDDB8A51876CAB500018DA4;
+			productRefGroup = ABDDB8AF1876CAB500018DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDDB8AD1876CAB500018DA4 /* TSCToolBarSettingsController Demo */,
+				ABDDB8CE1876CAB500018DA4 /* TSCToolBarSettingsController DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDDB8AC1876CAB500018DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDB8BC1876CAB500018DA4 /* InfoPlist.strings in Resources */,
+				ABDDB8CA1876CAB500018DA4 /* Images.xcassets in Resources */,
+				ABDDB8C21876CAB500018DA4 /* Credits.rtf in Resources */,
+				ABDDB8C81876CAB500018DA4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDDB8CD1876CAB500018DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDB8DA1876CAB500018DA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDDB8AA1876CAB500018DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDB8BE1876CAB500018DA4 /* main.m in Sources */,
+				ABDDB8C51876CAB500018DA4 /* TSCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDDB8CB1876CAB500018DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDB8DC1876CAB500018DA4 /* TSCToolBarSettingsController_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDDB8D41876CAB500018DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDDB8AD1876CAB500018DA4 /* TSCToolBarSettingsController Demo */;
+			targetProxy = ABDDB8D31876CAB500018DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABDDB8BA1876CAB500018DA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDDB8BB1876CAB500018DA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABDDB8C01876CAB500018DA4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDDB8C11876CAB500018DA4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ABDDB8C61876CAB500018DA4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDDB8C71876CAB500018DA4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ABDDB8D81876CAB500018DA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDDB8D91876CAB500018DA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDDB8DD1876CAB500018DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABDDB8DE1876CAB500018DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABDDB8E01876CAB500018DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSCToolBarSettingsController Demo/TSCToolBarSettingsController Demo-Prefix.pch";
+				INFOPLIST_FILE = "TSCToolBarSettingsController Demo/TSCToolBarSettingsController Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABDDB8E11876CAB500018DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSCToolBarSettingsController Demo/TSCToolBarSettingsController Demo-Prefix.pch";
+				INFOPLIST_FILE = "TSCToolBarSettingsController Demo/TSCToolBarSettingsController Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABDDB8E31876CAB500018DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TSCToolBarSettingsController Demo.app/Contents/MacOS/TSCToolBarSettingsController Demo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSCToolBarSettingsController Demo/TSCToolBarSettingsController Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TSCToolBarSettingsController DemoTests/TSCToolBarSettingsController DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABDDB8E41876CAB500018DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TSCToolBarSettingsController Demo.app/Contents/MacOS/TSCToolBarSettingsController Demo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSCToolBarSettingsController Demo/TSCToolBarSettingsController Demo-Prefix.pch";
+				INFOPLIST_FILE = "TSCToolBarSettingsController DemoTests/TSCToolBarSettingsController DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDDB8A91876CAB500018DA4 /* Build configuration list for PBXProject "TSCToolBarSettingsController Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDDB8DD1876CAB500018DA4 /* Debug */,
+				ABDDB8DE1876CAB500018DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDDB8DF1876CAB500018DA4 /* Build configuration list for PBXNativeTarget "TSCToolBarSettingsController Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDDB8E01876CAB500018DA4 /* Debug */,
+				ABDDB8E11876CAB500018DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABDDB8E21876CAB500018DA4 /* Build configuration list for PBXNativeTarget "TSCToolBarSettingsController DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDDB8E31876CAB500018DA4 /* Debug */,
+				ABDDB8E41876CAB500018DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDDB8A61876CAB500018DA4 /* Project object */;
+}
