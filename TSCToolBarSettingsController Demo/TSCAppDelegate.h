@@ -8,8 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface TSCAppDelegate : NSObject <NSApplicationDelegate>
+@interface TSCAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)openPreferences:(id)sender;
 
 @end

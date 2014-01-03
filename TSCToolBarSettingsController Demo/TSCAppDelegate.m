@@ -1,4 +1,4 @@
-//
+    //
 //  TSCAppDelegate.m
 //  TSCToolBarSettingsController Demo
 //
@@ -7,12 +7,28 @@
 //
 
 #import "TSCAppDelegate.h"
+#import "TSCToolBarSettingsController.h"
+#import "TSCWindowController.h"
+
+@interface TSCAppDelegate ()
+
+@property TSCWindowController* windowController;
+
+@end
 
 @implementation TSCAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+}
+
+- (IBAction)openPreferences:(id)sender
+{
+    if (!self.windowController)
+    {
+        self.windowController = [[TSCWindowController alloc]initWithWindowNibName:@"Preferences"];
+    }
+    [self.windowController.window makeKeyAndOrderFront:self];
 }
 
 @end

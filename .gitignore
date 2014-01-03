@@ -1,0 +1,40 @@
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData/
+.idea/
+*.hmap
+
+Demo.xcodeproj/project.xcworkspace/xcshareddata/Demo.xccheckout
+*.strings-sym
+
+*.strings-res
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb.strings-file
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb.strings-dir
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb.strings-res
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb-wal
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb.strings-sym
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb.strings-sym
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb-shm
+
+DerivedData/SESpinEdit Demo/Index/Debug/macosx10.9-x86_64/SESpinEdit Demo.xcindex/db.xcindexdb-shm
